@@ -1,0 +1,19 @@
+<div class="form-group">
+  <label for="serverName">Server Name</label>
+  <input id="serverName" type="text" class="form-control" #serverNameInput />
+</div>
+<div class="form-group">
+  <label for="serverContent">Server Content</label>
+  <input
+    id="serverContent"
+    type="text"
+    class="form-control"
+    #serverContentInput
+  />
+</div>
+<button class="btn btn-primary" (click)="onServerAdd()">
+  Add Server</button
+>&nbsp;
+<button class="btn btn-primary" (click)="onBlueprintAdd()">
+  Add Blueprint
+</button>
